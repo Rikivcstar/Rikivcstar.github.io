@@ -6,235 +6,321 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
-    <!-- Link Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- my css -->
     <link rel="stylesheet" href="style.css" />
-    <!-- link font -->
+    <!-- my fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
-    <!-- icons Boostrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <title>Web Portfolio | Ryansyah!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- fonts hootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <title>My Portfolio</title>
   </head>
   <body id="home">
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm bg-primary fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mt-4">
       <div class="container">
-        <div class="judul">
-          <a class="navbar-brand" href="#" style="text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8)">Ryansyah 3R</a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#galery">Galery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#kontak">Contact</a>
-            </li>
-          </ul>
+        <div class="row justify-content-center">
+          <div class="col-9 offset-1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active me-3" aria-current="page" href="#home">Home</a>
+                <a class="nav-link me-3" href="#about">About</a>
+                <a class="nav-link me-3" href="#skill">Skills</a>
+                <a class="nav-link me-3" href="#sertifikat">Sertifikat</a>
+                <a class="nav-link me-3" href="#portfolio">Portfolio</a>
+                <a class="nav-link me-3" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- akhir Navbar -->
-
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/kiki.jpg" class="rounded-circle img-thumbnail" alt="Riki Reza" width="180" />
-      <h1 class="display-4" style="font-weight: bold; font-family: 'Montserrat', sans-serif; text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8)">Riki Reza</h1>
-      <p class="lead" style="text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)">Web Developer | Web Design</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,64L48,101.3C96,139,192,213,288,234.7C384,256,480,224,576,192C672,160,768,128,864,138.7C960,149,1056,203,1152,213.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir Jumbotron -->
-    <!-- awal about -->
-    <section id="about">
-      <h2 class="text-center mb-5">About Me</h2>
+    <!-- end navbar -->
+    <!-- hero -->
+    <section id="hero" class="mt-5">
       <div class="container">
-        <div class="row p-4">
-          <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 offset-1 my-auto">
+            <h2>HELLO</h2>
+            <h1 class="fw-bold ngetik">I 'AM RIKI REZA</h1>
             <p>
-              Assalamulaikum Nama Saya <span style="font-weight: bold; color: black; font-size: 15px; font-family: Arial, Helvetica, sans-serif">Riki Reza Ryansyah</span> Umur Saya 17 Tahun Saya Sekolah Di Smk Tridharma 2 Bogor Di Jalan
-              Kebon Pedes Kecamatan Sereal, Saya Tinggal Di Bojonggede kp.Setu Rt02/Rw05 Lebih Tepatnya Jln Rh Panji, Saya Lahir Di Kota Dengan Sebutan Kota Hujan Ini Yaitu Bogor Pada Tanggal 21-September-2003.
+              Design Grafis || Web Developer || UI UX Design <br />
+              <span class="fw-bold color-acsen"> ' Fresh Graduate ' </span> Not Experiance.
             </p>
-          </div>
+            <a href="#contact">
+              <button class="btn btn-custom1">Let's Talk <i class="bi bi-arrow-right-circle-fill ms-1" style="font-size: 20px"></i></button
+            ></a>
 
-          <div class="col-md-6">
-            <p>
-              Di Sini Saya Ingin Menulis Biografi Diri Saya Di Website Yg Saya Telah Buat Dengan Mengikuti Tutorial Di Salah Satu Chennel Youtube Dengan Pembelajaran Web Yaitu Shandika ghalih, Alhamdulilah Saya Dapat Banyak Pembelajaran Di
-              Setiap Video Pembelajaran Yg Beliau Sampaikan, Saya Sangat Termotivasi Untuk Tau Lebih Dalam Tentang Dunia Pemrograman Karna Menurut Saya Dunia Pemrograman Sangat Seru Dan Menantang Dengan Memecahkan Suatu Persoalan Tersebut,
-              Sekian Terimakasih. Assalamulaikum wr.wb..
-            </p>
+            <div class="icons mt-3 position-absolute bottom-0">
+              <a href="https://www.instagram.com/_rikyreza/" style="color: #fff"> <i class="bi bi-instagram me-2" style="font-size: 22px"></i></a>
+              <a href="https://github.com/rikivcstar/" style="color: #fff"> <i class="bi bi-github me-2" style="font-size: 22px"></i> </a>
+              <a href="https://www.youtube.com/channel/UCJPEGRSqEog52z-aQYeIbsA/" style="color: #fff"> <i class="bi bi-youtube me-2" style="font-size: 22px"></i></a><br />
+              <a href="#" class="fw-bold text-decoration-none mt-3"> <span class="color-acsen"> Download</span> <span style="color: #fff"> Curriculum Vitae</span> </a>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-5">
+            <img src="image/hero-banner.jpg" alt="banner" class="rounded-circle" style="border: 3px #252734 solid; box-shadow: 2px 2px 5px rgba(255, 166, 0, 0.5)" width="94%" />
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,64L48,53.3C96,43,192,21,288,48C384,75,480,149,576,181.3C672,213,768,203,864,181.3C960,160,1056,128,1152,133.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+    </section>
+    <!-- akhir hero -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="text-center text-white fw-bold">About me</h2>
+              <hr class="color-acsen my-3" />
+            </div>
+            <div class="col-md-12">
+              <p class="color-acsen text-center fw-bold">Teknologi hanyalah alat, Positif negative tergantung siapa yg menggunakanya.</p>
+              <div class="row text-center mt-4">
+                <div class="col-md-6 col-lg-12">
+                  <p class="text-center text-white">
+                    Assalamulaikum Nama Saya <span style="font-weight: bold; color: var(--acsenColor); font-size: 15px">Riki Reza Ryansyah</span> Umur Saya 17 Tahun Saya Sekolah Di Smk Tridharma 2 Bogor Di Jalan Kebon Pedes Kecamatan
+                    Sereal, Saya Tinggal Di Bojonggede kp.Setu Rt02/Rw05 Lebih Tepatnya Jln Rh Panji, Saya Lahir Di Kota Dengan Sebutan Kota Hujan Ini Yaitu Bogor Pada Tanggal 21-September-2003,
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-12 col-sm-12">
+                  <p class="text-center">
+                    Di Sini Saya Ingin Menulis Biografi Diri Saya Di Website Yg Saya Telah Buat Dengan Mengikuti Tutorial Di Salah Satu Chennel Youtube Dengan Pembelajaran Web Yaitu Shandika ghalih, Alhamdulilah Saya Dapat Banyak
+                    Pembelajaran Di Setiap Video Pembelajaran Yg Beliau Sampaikan, Saya Sangat Termotivasi Untuk Tau Lebih Dalam Tentang Dunia Pemrograman Karna Menurut Saya Dunia Pemrograman Sangat Seru Dan Menantang Dengan Memecahkan
+                    Suatu Persoalan Tersebut, Sekian Terimakasih. Assalamulaikum wr.wb..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- akhir about -->
-    <!-- awal galery -->
-    <section id="galery">
-      <h2 class="text-center mb-5">My Galery</h2>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Keyboard Mechanical Adalah Keyboard Impian Para Programmer Di Zaman Ini Keyboard Yg Sangat Nyaman Di Pakai</p>
-              </div>
+
+    <!-- skilll -->
+    <section id="skill">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-lg-center mt-5">
+            <div class="col-md-12">
+              <h2 class="text-center text-white fw-bold">My Skills</h2>
+              <hr class="color-acsen my-3" />
             </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/2.jpg" class="card-img-top" alt="Project2" />
-              <div class="card-body">
-                <p class="card-text">"Tak perlu jadi hebat untuk memulai, tapi kau harus memulai untuk bisa jadi hebat.".</p>
+            <div class="row justify-content-center text-center">
+              <div class="col-md-2 mt-3">
+                <img src="image/off.png" alt="office" class="rounded-circle img-fluid img-ubah" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/3.jpg" class="card-img-top" alt="Project3" />
-              <div class="card-body">
-                <p class="card-text">SetUp Room Idaman Yg Ingin Di Miliki Pada Setiap Programmer SetUp Dengan Estetic Yg Sangat Memanjkan Mata.</p>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/photoshop.png" alt="office" class="rounded-circle img-fluid img-ubah" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/4.jpg" class="card-img-top" alt="Project4" />
-              <div class="card-body">
-                <p class="card-text">Cara paling efektif mencapai masa depan yang cerah adalah dengan Menghadapi masa kini secara berani dan konstruktif."</p>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/xd.png" alt="office" class="rounded-circle img-fluid img-ubah" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/5.jpg" class="card-img-top" alt="Project5" />
-              <div class="card-body">
-                <p class="card-text">"Jangan melihat masa lalu dengan penyesalan, jangan pula melihat masa depan dengan ketakutan, tapi lihatlah sekitarmu dengan penuh kesadaran."</p>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/mysql.png" alt="office" class="rounded-circle img-fluid img-ubah" />
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/6.jpg" class="card-img-top" alt="Project6" />
-              <div class="card-body">
-                <p class="card-text">"Selalu ada harapan bagi mereka yang sering berdoa dan selalu ada jalan bagi mereka yang gemar berusaha."</p>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/hmtl.png" alt="office" class="rounded-circle img-fluid img-ubah" />
+              </div>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/css.png" alt="office" class="rounded-circle img-fluid img-ubah" width="150" />
+              </div>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/js.png" alt="office" class="rounded-circle img-fluid img-ubah" />
+              </div>
+              <div class="col-md-2 col-sm-6 mt-3">
+                <img src="image/logo-php.png" alt="office" class="rounded-circle img-fluid img-ubah" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,320L48,272C96,224,192,128,288,122.7C384,117,480,203,576,224C672,245,768,203,864,208C960,213,1056,267,1152,250.7C1248,235,1344,149,1392,106.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
-    <!-- Akhir Galery -->
-    <!-- Awal KOantak  -->
-    <section id="kontak">
-      <div class="container">
-        <h2 class="text-center mt-5">Contact Me</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none text-center my-alert" role="alert">
-              <strong>Terimakasih!<strong> Pesan Yg Anda Kirimkan Sudah Kami Terima..
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="3r-contact-form">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nama Lengkap </label>
-                <input type="text" class="form-control" name="nama" id="exampleInputEmail1" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputName" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputPassword1" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="pesan"></textarea>
-              </div>
+    <!-- akhir skilll -->
 
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-              <button class="btn btn-success btn-loading d-none" type="button" disabled>
-                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
+    <!-- sertifikat -->
+    <section id="sertifikat">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row text-center mt-5">
+            <div class="col-12">
+              <h2 class="text-center text-white fw-bold">My Sertifikat</h2>
+              <hr class="color-acsen" />
+            </div>
+          </div>
+          <div class="row text-center mt-5">
+            <div class="col-md-4 mb-3">
+              <img src="image/HTML_certificate.jpg" alt="" />
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="image/Riki Reza Ryansyah_placement_1723694(1)_page-0001.jpg" alt="" class="img-panjang" />
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="image/PHP_certificate.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end sertifikat -->
+    <!-- my project -->
+    <section id="portfolio">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12">
+              <h2 class="fw-bold text-center text-white">My Portfolio</h2>
+              <hr class="color-acsen" />
+            </div>
+            <div class="row mt-5 justify-content-center">
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img src="project/project1.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img src="project/project2.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img src="project/project3.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <div class="card">
+                  <img src="project/project4.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3 mt-2">
+                <div class="card">
+                  <img src="project/project5.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-3 mt-2">
+                <div class="card">
+                  <img src="project/project6.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio dolorum, et doloribus molestiae voluptates nemo earum nihil architecto dolor.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end project  -->
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center mt-5 mb-3">
+          <div class="col-md-12">
+            <h2 class="fw-bold text-center text-white mt-5 mb-3">Contact Me</h2>
+            <hr class="color-acsen" />
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-5 text-center" style="margin-right: -100px">
+            <div class="card" style="width: 80%">
+              <div class="card-body text-center">
+                <i class="bi bi-envelope-fill text-white" style="font-size: 45px"></i>
+                <h5 class="text-white fw-bold">Contact</h5>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae at.</p>
+              </div>
+            </div>
+            <ul class="list-group mt-4 pb-3" style="width: 80%">
+              <li class="list-group-item display-5">Our Office</li>
+              <li class="list-group-item">Riki Reza Ryansyah</li>
+              <li class="list-group-item">Fresh Graduate</li>
+              <li class="list-group-item">Kp.Setu, Kec.Bojonggede, Kab. Bogor!</li>
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <form action="" method="post">
+              <div class="mb-3">
+                <label for="nama" class="form-label text-white">Nama Lengkap</label>
+                <input type="text" class="form-control bg-transparent text-white" id="nama" placeholder="Masukan nama lengkap anda" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-white">Email address</label>
+                <input type="email" class="form-control bg-transparent text-white" id="email" placeholder="Send Your Email" />
+              </div>
+              <div class="mb-3">
+                <label for="number" class="form-label text-white">Your Number</label>
+                <input type="number" class="form-control bg-transparent text-white" id="email" placeholder="Send Your Number" />
+              </div>
+              <div class="mb-3">
+                <label for="textarea" class="form-label text-white">Textarea</label>
+                <textarea class="form-control bg-transparent text-white" id="textarea" rows="5"></textarea>
+              </div>
             </form>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#252734"
           fill-opacity="1"
-          d="M0,64L40,96C80,128,160,192,240,202.7C320,213,400,171,480,133.3C560,96,640,64,720,74.7C800,85,880,139,960,160C1040,181,1120,171,1200,160C1280,149,1360,139,1400,133.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          d="M0,224L48,234.7C96,245,192,267,288,272C384,277,480,267,576,245.3C672,224,768,192,864,170.7C960,149,1056,139,1152,144C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- akHir Kontak -->
+    <!-- end contact -->
+
     <!-- footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created With <i class="bi bi-heart-half text-danger"></i> By <a href="https://www.instagram.com/_Rykireza/" class="text-white fw-bold">Riki Reza</a></p>
-    </footer>
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-12" style="margin-bottom: 80px">
+              <img src="image/footer img.png" alt="" width="80" />
+              <p class="text-white mt-3">
+                Created With <i class="bi bi-heart-half text-danger" style="color: red"></i> By <a href="https://www.instagram.com/_rikyreza/" class="color-acsen fw-bold text-decoration-none">Riki Reza Ryansyah</a>
+              </p>
+              <a href="https://www.instagram.com/_rikyreza/" style="color: #fff"> <i class="bi bi-instagram me-2" style="font-size: 22px"></i></a>
+              <a href="https://github.com/rikivcstar/" style="color: #fff"> <i class="bi bi-github me-2" style="font-size: 22px"></i> </a>
+              <a href="https://www.youtube.com/channel/UCJPEGRSqEog52z-aQYeIbsA/" style="color: #fff"> <i class="bi bi-youtube me-2" style="font-size: 22px"></i></a><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwdiJfIhzmhbHDWnMRXNnl9Q3foDlm_BbWvFwvb97XmtL6ryr1-Gl0MmIuNqfW1nlSO/exec";
-      const form = document.forms["3r-contact-form"];
-
-
-      const btnKirim = document.querySelector('.btn-kirim');
-      const btnLoading = document.querySelector('.btn-loading');
-      const myAlert = document.querySelector('.my-alert');
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        // Ketika tombol Kirim Di tekan
-        // munculkan Tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) =>{
-            // munculkan Tombol kirim, hilangkan tombol loading
-             btnKirim.classList.toggle('d-none');
-             btnLoading.classList.toggle('d-none');
-            // tampilkan myale
-            myAlert.classList.toggle('d-none');
-            // hilkan kan formnya
-            form.reset();
-            console.log("Success!", response)
-            
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- my javascript -->
+    <script src="js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
